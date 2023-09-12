@@ -3,7 +3,11 @@ package com.driver;
 
 public class Main {
 
-    A obj = new A();
+   public static void main(String[] args)
+   {
+       A obj = new B();
 
-    String ans = obj.meth();
+       String ans = obj.meth();
+   }
+   
 }
